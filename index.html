@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>🛡CoWin | Covid 19 awareness single page website</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">🛡 CoWin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./Get-Vaccinated.html">Get Vaccinated</a>
+                    </li>
+                    <li class="nav-item">
+                    </li>
+                </ul>
+                <button type="button" id="getDataBtn" class="btn btn-danger">Get data</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container  text-center">
+        <h1>Covid-19 tracker 📊</h1>
+    </div>
+    <div class="container text-center">
+        <p class="blink_me"> Click on get data button for get information </p>
+    </div>
+
+
+    <hr>
+    <div class="container" id="result">
+        <h1>Meta Data</h1>
+        <table class="table table-dark table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">✔</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Last updated</th>
+                    <th scope="col">Population</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="metaData">
+                    <th scope="row">🔗</th>
+                    <td>....</td>
+                    <td>....</td>
+                    <td>....</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h1>Totals</h1>
+        <table class="table table-dark table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">✔</th>
+                    <th scope="col">Confirmed</th>
+                    <th scope="col">Deceased</th>
+                    <th scope="col">Recovered</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="totalData1">
+                    <th scope="row">🔗</th>
+                    <td>...</td>
+                    <td>....</td>
+                    <td>...</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <table class="table table-dark table-hover table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">✔</th>
+                    <th scope="col">Tested</th>
+                    <th scope="col">Vaccinated-1</th>
+                    <th scope="col">Vaccinated-2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="totalData2">
+                    <th scope="row">🔗</th>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+            </tbody>
+        </table />
+
+        <hr>
+        <h5>Recovery Rate</h5>
+        <p class="placeholder-glow">
+            <span class="placeholder col-12"></span>
+        </p>
+        <hr>
+        <h5>Death Rate</h5>
+        <p class="placeholder-glow">
+            <span class="placeholder col-12"></span>
+        </p>
+        <hr>
+        <h5>Testing</h5>
+        <p class="placeholder-glow">
+            <span class="placeholder col-12"></span>
+        </p>
+        <div class="container">
+            <h1>Extra empty space</h1>
+        </div>
+    </div>
+
+
+    <footer class="text-center text-white fixed-bottom" style="background-color: #456dda;">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright: Yash Parmar
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
